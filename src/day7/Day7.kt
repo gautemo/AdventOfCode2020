@@ -1,7 +1,6 @@
 package day7
 
 import shared.getLines
-import kotlin.math.max
 
 fun nrCanContainGoldBag(bagRules: List<String>): Int {
     val bags = mapToBags(bagRules)
